@@ -1,0 +1,96 @@
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(61, 29, 121);
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    
+}
+
+
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.cart {
+    display: flex;
+    justify-content: end;
+    padding-right: 1rem;
+}
+
+.lista {
+    display: flex;
+    justify-content: start;
+    padding-left: 1rem;
+    font-size: 2rem;
+}
+
+.cadastrar {
+    background-color: rgb(119, 0, 255);
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#sectionMain {
+    width: 90%;
+    background-color: rgb(42, 9, 119);
+    display: flex;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 10px;
+    justify-content: space-evenly;
+}
+
+#cartao {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    padding: 1rem;
+}
+
+#cartoes {
+    background-color: rgb(104, 104, 104);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    width: 25%;
+}
+
+img {
+    width: 80%;
+}
+
+h4 {
+    color: red;
+}
+
+#botaoComprar {
+    color: black;
+    text-decoration: none;
+    background-color: rgb(98, 0, 255);
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+
