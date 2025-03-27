@@ -1,17 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    gap: 10rem;
+
+    background-color: #0E5EF3;
+
+    
+    padding: 20px;
+    
+    
+}
+
 a{
     text-decoration: none;
     color: black;
     font-size: 50px;
+    color: white;
 
-}
-
-body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    width: 90vw;
-    height: 90vh;
-
-    gap: 10rem;
 }

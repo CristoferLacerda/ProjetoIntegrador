@@ -158,12 +158,12 @@ input {
     font-size:20px;
     padding: 10px;
     border-radius: 10px;
+    transition: 1s;
 }
 
 
 .botaoLogin h1:hover {
  padding: 13px;
- transition: 1s;
  cursor: pointer;
 }
 
