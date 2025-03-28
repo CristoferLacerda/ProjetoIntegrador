@@ -55,8 +55,11 @@ body {
     border-radius: 10px;
     color: white;
     justify-content: center;
+    transition: 1s;
 
 }
+
+
 
 .loginFacebook {
     border: solid 2px white;
@@ -68,6 +71,7 @@ body {
     color: white;
     width: 25vh;
     justify-content: center;
+    transition: 1s;
 
 }
 
@@ -84,10 +88,13 @@ body {
 
 .loginGoogle:hover {  
     cursor: pointer;
+    font-size: 20px;
 }
 
 .loginFacebook:hover{
     cursor: pointer;
+    font-size: 20px;
+
 }
 
 #informacoes {
@@ -163,7 +170,8 @@ input {
 
 
 .botaoLogin h1:hover {
- padding: 13px;
+    font-size:25px;
+
  cursor: pointer;
 }
 
