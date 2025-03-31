@@ -23,12 +23,13 @@ body {
 
 .usuario {
     display: flex;
-    /* gap: 3.2rem; */
     justify-content: space-between;
 }
 
-.botaoVoltar{
-    font-size: 3rem;
+
+.botaoVoltar a img{
+    width: 50px; 
+    height: 50px;
 }
 
 .fotoUsuario img {

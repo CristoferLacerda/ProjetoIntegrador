@@ -3,37 +3,234 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Inicio</title>
     <link rel="stylesheet" href="principal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
 
     <header>
 
         <div id="logoEburger">
+
             <div class="imgLogo">
                 <img src="img/logoMountedStyle.png" alt="">
             </div>
 
-            <div class="departamentos">
-                <button class="iconeBurger"> 
-                    <img src="img/iconCart (1).png" alt="">
-                 </button>
+            <div class="btnMenu"> 
+                <button class="menu"> <img src="img/iconBurger.png" alt=""> </button> 
             </div>
-        </div>
-        
 
+        </div>
+
+
+        
         <div id="barraPesquisa">
             <input type="text">
+            <i class="bi bi-search"></i>
         </div>
 
+
+        
         <div id="perfilEcarrinho">
-            <button class="iconeCarrinho"> <img src="img/iconCart (1).png" alt=""></button>
+            <button class="iconeCarrinho" onclick=""> 
+                <a href="../PaginaCarrinho/carrinho.html"> <img src="img/iconCart (1).png" alt=""> </a>
+            </button>
+            
+            <button class="iconePerfil">
+                 <a href="../PaginaPerfil/perfil.html"> <img src="img/fotoPerfil.png.jpeg" alt=""> </a>
+            </button>
+        </div>
+        
+    </header>
 
-            <button class="iconePerfil"> <img src="img/fotoPerfil.png.jpeg" alt=""></button>
+    <section id="carrossel">
+        <div class="infoCarrossel">
+
+            <div class="tituloCarrossel">
+                <h1>Monte a sua</h1>
+            </div>
+
+            <div class="textosDoCarrossel">
+                <div class="textoCarrossel texto1">
+                    <img src="img/iconCart (1).png" alt="">
+                    <p>Montagem gratuita</p>
+                </div>
+                <div class="textoCarrossel texto2">
+                    <img src="img/iconCart (1).png" alt="">
+                    <p>Peças personalizadas</p>
+                </div>
+                <div class="textoCarrossel texto3">
+                    <img src="img/iconCart (1).png" alt="">
+                    <p>Frete grátis na primeira compra</p>
+                </div>
+                <div class="textoCarrossel texto4">
+                    <img src="img/iconCart (1).png" alt="">
+                    <p>Montada seu gosto </p>
+                </div>
+            </div>
+
         </div>
 
-    </header>
-    
+        <div class="imgCarrossel">
+            
+            <div class="tituloCarrossel">
+                <h1>Montadas na loja</h1>
+                <p class="barra"></p>
+            </div>
+
+            <div class="montadasNaLoja">
+                <img src="img/bikeBranca.png.jpeg" alt="">
+                <img src="img/bikeVerde.png.jpeg" alt="">
+                <img src="img/bikeRoxa.png.jpeg" alt="">
+            </div>
+
+        </div>
+    </section>
+
+    <section id="opcoes">
+
+        <button>Destaques</button>
+        <button>Ofertas</button>
+        <button>Monte a sua</button>
+
+    </section>
+
+    <main>
+
+        <section id="tituloDepartamento">
+            <h1>Destaques</h1>
+            <p class="barra"></p>
+        </section>
+
+        <section id="carrosselDestaques">
+
+            <div class="produtoDestaques">
+
+                <div class="imgProduto">
+                    <img src="img/produtoDisco203mm.png" alt="">
+                </div>
+
+                <div class="infoProduto">
+
+                    <h1>Disco Freio 160mm</h1>
+
+                    <div class="precoProduto">
+                        <span class="precoDesconto">R$20,00</span>
+                        <div class="preco">
+                            <span class="precoCheio">R$17,00</span>
+                            <span class="desconto">15% OFF</span>
+                        </div>
+                        <p>Em 2x de R$8,50</p>
+                    </div>
+
+                    <div class="frete">
+                        <p class="freteGratis">Frete Grátis</p>
+                        <p>Na sua primeira compra.</p>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+
+            <div class="produtoDestaques">
+
+                <div class="imgProduto">
+                    <img src="img/produtoGuidaoVoador.png" alt="">
+                </div>
+
+                <div class="infoProduto">
+
+                    <h1>Guidão Voador</h1>
+
+                    <div class="precoProduto">
+                        <span class="precoDesconto">R$115,00</span>
+                        <div class="preco">
+                            <span class="precoCheio">R$92,00</span>
+                            <span class="desconto">20% OFF</span>
+                        </div>
+                        <p>Em 10x de R$9,20</p>
+                    </div>
+
+                    <div class="frete">
+                        <p class="freteGratis">Frete Grátis</p>
+                        <p>Na sua primeira compra.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="produtoDestaques">
+
+                <div class="imgProduto">
+                    <img src="img/produtoSelimDDK.png" alt="">
+                </div>
+
+                <div class="infoProduto">
+
+                    <h1>Selim DDK</h1>
+
+                    <div class="precoProduto">
+                        <span class="precoDesconto">R$155,00</span>
+                        <div class="preco">
+                            <span class="precoCheio">R$108,50</span>
+                            <span class="desconto">30% OFF</span>
+                        </div>
+                        <p>Em 10x de R$10,85</p>
+                    </div>
+
+                    <div class="frete">
+                        <p class="freteGratis">Frete Grátis</p>
+                        <p>Na sua primeira compra.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="produtoDestaques">
+
+                <div class="imgProduto">
+                    <img src="img/produtoSuspensao.png" alt="">
+                </div>
+
+                <div class="infoProduto">
+
+                    <h1>Suspensão Mode </h1>
+
+                    <div class="precoProduto">
+                        <span class="precoDesconto">R$152,10</span>
+                        <div class="preco">
+                            <span class="precoCheio">R$91,26</span>
+                            <span class="desconto">40% OFF</span>
+                        </div>
+                        <p>Em 10x de R$5,62</p>
+                    </div>
+
+                    <div class="frete">
+                        <p class="freteGratis">Frete Grátis</p>
+                        <p>Na sua primeira compra.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="tituloDepartamento">
+            <h1>Bikes Prontas</h1>
+            <p class="barra"></p>
+        </section>
+
+
+
+    </main>
+
 </body>
+
 </html>

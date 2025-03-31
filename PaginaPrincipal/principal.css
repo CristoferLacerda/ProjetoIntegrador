@@ -1,7 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 header{
@@ -9,7 +19,7 @@ header{
     display: flex;
 
 
-    height: 10vh;
+    height: 12vh;
     width: 100vw;
 
     justify-content: space-between;
@@ -18,7 +28,7 @@ header{
 
 
 #perfilEcarrinho{
-    width: 200px;
+    width: 230px;
     display: flex;
     gap: 10px;
     justify-content: center;
@@ -37,6 +47,8 @@ header{
     left: 35px;
 }
 
+
+
 .iconePerfil img {
     width: 100%;
     border-radius: 50px;
@@ -48,56 +60,335 @@ header{
 
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
+
+    position: relative;
 }
 
 #barraPesquisa input {
     width: 100%;
     height: 30px;
+
     outline: none;
-    /* border-radius: 5px; */
+
+    border-radius: 50px;
     border: transparent;
+
+    position: absolute;
+}
+
+.bi-search {
+    position: absolute;
+    right: 10px;
 }
 
 .iconeCarrinho {
     width: 40px;
     height: 40px;
 
-    /* border-radius: 50px; */
     border: transparent;
     background-color: transparent;
+
+    position: relative;
+    left: 20px;
 }
 
-.departamentos {
-    width: 200px;
+#logoEburger {
     display: flex;
-    gap: 10px;
+
+    align-items: center;
     justify-content: center;
+    gap: 10px;
+
+    width: 230px;
+    height: 80px;
+
+}
+
+.logoEburger img {
+    width: 50px;
+    min-height: 20px;
+}
+
+.imgLogo {
+    width: 100%;
+    height: 100%;
+}
+
+.imgLogo img {
+    width: 100%;
+    height: 100%;
+}
+
+.btnMenu {
+    width: 50px;
+
+    display: flex;
+}
+
+.menu {
+    width: 40px;
+    height: 40px;
+
+    background-color: transparent;
+    border: transparent;
+
+}
+
+/* ============================================================== */
+
+#carrossel {
+    width: 100vw;
+    height: 40vh;
+
+    background-color: #719EF0;
+
+    display: flex;
+
+    justify-content: space-around;
+    
+}
+
+.infoCarrossel {
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+
+    width: 40%;
+}
+
+.infoCarrossel h1 {
+    font-size: 60px;
+}
+
+.textoCarrossel {
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    font-size: 20px;
+}
+
+.textoCarrossel img {
+    width: 20px;
+}
+
+.texto1 {
+    position: relative;
+    right: 30px;
+}
+
+.texto2 {
+    position: relative;
+    left: 20px;
+}
+
+
+    
+
+.texto4 {
+    position: relative;
+    right: 10px;
+}
+
+.barra{
+    color: white;
+    border: solid 1px #ffffff;
+    height: 1px;
+    width: 80%;
+
+}
+
+.tituloCarrossel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textosDoCarrossel{
+    display: flex;
+    flex-direction: column;
+     gap: 20px;
+
+     align-items: center;
+}
+
+.imgCarrossel {
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 20px;
+}
+
+.imgCarrossel h1 {
+    font-size: 40px;
+    color: white;
+}
+.imgCarrossel .barra {
+    width: 200%;
+}
+
+.montadasNaLoja img {
+    width: 180px;
+    border: solid 2px white;
+    border-radius: 20px;
+}
+
+.montadasNaLoja {
+    display: flex;
+
+    gap: 20px;
+}
+
+#opcoes {
+    background-color: #0B6BFD;
+
+    width: 100vw;
+    height: 5vh;
+
+    display: flex;
+
+    justify-content: space-evenly;
     align-items: center;
 
 }
 
-.iconeBurger {
-    width: 40px;
-    height: 40px;
-
-    /* border-radius: 50px; */
-    border: transparent;
+#opcoes button {
     background-color: transparent;
+    border: transparent;
+    color: white;
+
+    font-size: 20px;
 }
 
-.iconeBurger img {
-    width: 1px;
+/* ====================================================================== */
+
+main {
+    width: 96vw;
+    height: 200vh;
+
+    margin: 20px;
+
+    background-color: #719EF0;
+    
+    border-radius: 10px;
+    border: solid 2px black;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 50px;
+}
+
+#carrosselDestaques {
+    background-color: yellow;
+
+    width: 95%;
+    height: 30%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: relative;
+    top: 20px;
+}
+
+.produtoDestaques {
+    width: 20%;
+    height: 90%;
+    background-color: white;
+    border-radius: 20px;
+    border: solid 2px black;
+
+    display: flex;
+    flex-direction: column;
+
+    /* justify-content: space-between; */
+
+    gap: 20px;
 
 }
 
-    #logoEburger {
-        width: 200px;
+.produtoDestaques img {
+    height: 100%;
+    width: 65%;
     
-        display: flex;
-        align-items: center;
-    }
+}
+
+.imgProduto {
     
-    #logoEburger img {
-        width: 100px;
-    }
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.precoDesconto {
+    text-decoration: line-through;
+}
+
+.precoCheio {
+    font-size: 25px;
+}
+
+.preco {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.desconto {
+    color: rgb(46, 209, 32);
+}
+
+.precoProduto {
+    display: flex;
+    flex-direction: column;
+
+    gap: 5px;
+}
+
+.freteGratis {
+    color: rgb(46, 209, 32);
+
+}
+
+.infoProduto {
+    position: relative;
+    left: 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+#tituloDepartamento {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    position: relative;
+    top: 20px;
+}
+
+#tituloDepartamento h1 {
+    font-size: 50px;
+
+    color: white;
+}
+
+#tituloDepartamento .barra{
+    width: 350px;
+}

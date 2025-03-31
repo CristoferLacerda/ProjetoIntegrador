@@ -8,6 +8,15 @@ body {
     display: flex;
 }
 
+.botaoVoltar a img{
+    width: 40px; 
+    height: 40px;
+
+    position: relative;
+    left: 20px;
+    top: 3px;
+}
+
 #informacoesPreco {
     background-color: white;
     width: 30vw;
@@ -23,14 +32,32 @@ body {
 
 .tituloCarrinho{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: space-between;
 
     padding-top: 20px;
 
     font-size: 30px;
+
+    width: 100%;
+
+    align-items: center;
+    
+    
 }
 
+.tituloDoCarrinho {
+    width: 70%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+.tituloDoCarrinho .barra {
+    width: 300px;
+}
 
 .barra{
     color: white;
