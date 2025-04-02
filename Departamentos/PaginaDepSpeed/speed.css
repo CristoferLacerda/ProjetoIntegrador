@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+
+#cabecalho {
+    width: 100vw;
+    height: 15vh;
+
+    background-color: #0B6BFD;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 25%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo a {
+    height: 100%;
+}
+
+.logo a img {
+    width: 90%;
+    height: 90%;
+}
+
+.tituloDep{
+    width: 25%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+
+    font-size: 35px;
+
+}
+
+
+
+.barraPesquisa{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    right: 30px;
+
+    
+}
+
+.barraPesquisa i{
+    position: relative;
+    right: 25px;
+}
+
+.barraPesquisa input {
+    width: 80%;
+    padding: 8px;
+
+    outline: none;
+
+    border-radius: 50px;
+    border: transparent;
+
+    /* position: absolute; */
+
+    position: relative;
+    
+    font-size: 15px;
+}
+
+/* ================================= */
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 20px;
+}
+.produtoDestaques {
+    width: 20%;
+    height: 90%;
+    background-color: white;
+    border-radius: 20px;
+    border: solid 2px #8f8e8e;
+
+    display: flex;
+    flex-direction: column;
+
+    /* justify-content: space-between; */
+
+    gap: 20px;
+
+}
+.produtoDestaques img {
+    height: 100%;
+    width: 65%;
+    
+}
+
+.imgProduto {
+    
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.precoDesconto {
+    text-decoration: line-through;
+}
+
+.infoProduto {
+    position: relative;
+    left: 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+.precoCheio {
+    font-size: 25px;
+}
+
+.preco {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.desconto {
+    color: rgb(46, 209, 32);
+}
+
+.precoProduto {
+    display: flex;
+    flex-direction: column;
+
+    gap: 5px;
+}
+
+.freteGratis {
+    color: rgb(46, 209, 32);
+}
+
+#produtos {
+    /* background-color: red; */
+    width: 100%;
+
+    display: flex;
+
+    justify-content: space-evenly;
+} 
+
+.frete {
+    padding-bottom: 10px;
+}

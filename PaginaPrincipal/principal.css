@@ -138,8 +138,9 @@ header{
 /* ============================================================== */
 
 #carrossel {
-    width: 100vw;
-    height: 40vh;
+    width: 100%;
+
+    padding: 20px;
 
     background-color: #719EF0;
 
