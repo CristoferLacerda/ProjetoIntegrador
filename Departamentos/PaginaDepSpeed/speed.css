@@ -8,7 +8,7 @@
 
 #cabecalho {
     width: 100vw;
-    height: 15vh;
+    height: 10vh;
 
     background-color: #0B6BFD;
 
@@ -167,10 +167,34 @@ main {
     width: 100%;
 
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 
     justify-content: space-evenly;
 } 
 
 .frete {
     padding-bottom: 10px;
+}
+
+.btnComprar {
+    background-color: rgba(48, 240, 9, 0.986);
+    padding: 6px;
+    border: transparent;
+    border-radius: 5px;
+
+    width: 80%;
+
+    margin-bottom: 10px;
+
+    color: white;
+    
+    font-size: 20px;
+
+}
+
+.comprar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }

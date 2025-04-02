@@ -291,22 +291,26 @@ main {
 }
 
 #carrosselDestaques {
-    background-color: yellow;
+    /* background-color: yellow; */
 
     width: 95%;
-    height: 30%;
+    height: auto;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 
     position: relative;
     top: 20px;
+
+    flex-wrap: wrap;
+
 }
 
 .produtoDestaques {
-    width: 20%;
-    height: 90%;
+    width: 15%;
+    margin: 10px;
+    /* height: 90%; */
     background-color: white;
     border-radius: 20px;
     border: solid 2px black;
@@ -411,6 +415,13 @@ main {
 
     font-size: 20px;
 
+}
+
+#rodape a {
+    text-decoration: none;
+    color: white;
+
+    font-size: 30px;
 }
 
 /* ======================================================= */
