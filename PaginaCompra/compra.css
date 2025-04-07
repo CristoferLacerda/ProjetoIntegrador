@@ -141,9 +141,129 @@ main {
     border: solid 2px black;
 
     display: flex;
-    flex-direction: column;
 
     align-items: center;
 
     gap: 50px;
+}
+
+#infoProduto {
+    width: 70%;
+    /* background-color: red; */
+
+    background-color: #e7e7e7;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin: 10px;
+}
+
+.nomeProduto {
+    width: 90%;
+
+    /* background-color: yellow; */
+
+    display: flex;
+
+    gap: 20px;
+}
+
+.nomeProduto h1 {
+    font-size: 40px;
+}
+
+.nomeProduto p {
+    font-size: 20px;
+}
+
+.imgProduto {
+    width: 30%;
+    /* background-color: blue; */
+
+
+}
+
+.imgProduto img {
+    width: 100%;
+}
+
+.numero {
+    display: flex;
+    gap: 10px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.numero p {
+    font-size: 20px;
+    position: relative;
+    bottom: 2px;
+}
+
+.quantidade {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 5px;
+
+    position: relative;
+    right: 40px;
+}
+
+.descricao {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button img {
+    width: 20px;
+}
+
+button {
+    background-color: transparent;
+    border: transparent;
+    
+}
+
+/* ==================================== */
+
+#infoPagamento {
+    /* background-color: red; */
+
+    width: 30%;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+.barra {
+    width: 90%;
+    border: solid 1px #ccc;
+}
+
+.preco{
+
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.frete {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.valor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
