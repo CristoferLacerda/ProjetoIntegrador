@@ -159,20 +159,22 @@ input {
     gap: 15px;
 }
 
-.botaoLogin h1{
+.botaoLogin button{
     background-color: #0E5EF3;
     color: white;
     font-size:20px;
-    padding: 10px;
+    padding: 5px;
     border-radius: 10px;
     transition: 1s;
+
+    border: transparent;
 }
 
 
-.botaoLogin h1:hover {
+.botaoLogin button:hover {
     font-size:25px;
 
- cursor: pointer;
+    cursor: pointer;
 }
 
 .botaoCadastrar-se {

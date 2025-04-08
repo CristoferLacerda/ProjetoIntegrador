@@ -44,9 +44,9 @@
 
             <div class="barraEmail">
 
-                    <span class="textoBarras">Seu e-mail</span>
+                <span class="textoBarras">Seu e-mail</span>
 
-                <input type="email" required placeholder="minhabike@gmail.com">
+                <input type="email" required placeholder="minhabike@gmail.com" id="email">
 
             </div>
 
@@ -54,7 +54,7 @@
 
                 <span class="textoBarras">Senha</span>
 
-                <input type="password" required placeholder="1234">
+                <input type="password" required placeholder="1234" id="senha">
                 
             </div>
             
@@ -64,7 +64,7 @@
         <div class="finalizacaoLogin">
 
             <div class="botaoLogin">
-                <h1>Entrar</h1>
+                <button onclick="valida()">Entrar</button>
             </div>
 
             <div class="botaoCadastrar-se">
@@ -77,5 +77,7 @@
 
 
     </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
