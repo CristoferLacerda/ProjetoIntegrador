@@ -206,6 +206,11 @@ main {
     justify-content: center;
 }
 
+.comprar a {
+    text-decoration: none;
+    color: white;
+}
+
 .textoProduto {
     position: relative;
     left: 10px;
