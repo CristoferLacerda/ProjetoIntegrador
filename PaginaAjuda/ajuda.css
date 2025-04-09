@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#cabecalho {
+    width: 100%;
+    height: 15vh;
+
+    background-color: #0B6BFD;
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    width: 25%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo a {
+    height: 100%;
+}
+
+.logo a img {
+    width: 90%;
+    height: 90%;
+}
+
+.tituloDep{
+    width: 25%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+
+    font-size: 35px;
+
+}
+
+
+
+.barraPesquisa{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    right: 30px;
+
+    
+}
+
+.barraPesquisa i{
+    position: relative;
+    right: 25px;
+}
+
+.barraPesquisa input {
+    width: 80%;
+    padding: 8px;
+
+    outline: none;
+
+    border-radius: 50px;
+    border: transparent;
+
+    /* position: absolute; */
+
+    position: relative;
+    
+    font-size: 15px;
+}
+
+/* ============================================== */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    width: 96vw;
+    margin: 20px;
+    background-color: #0B6BFD;
+
+    border-radius: 10px;
+    border: solid 2px black;
+}
+
+#informacoes{
+    padding-top: 20px;
+
+    display: flex;
+    gap: 30px;
+
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+
+    color: white;
+
+    font-weight: bold;
+}
+
+
+.divisao {
+    width: 40%;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+.divisao h1{
+    font-size: 35px;
+}
+
+.divisao p{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+li {
+    font-size: 20px;
+}
