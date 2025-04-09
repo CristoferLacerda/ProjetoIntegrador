@@ -273,7 +273,7 @@ header{
 
 main {
     width: 96vw;
-    height: 200vh;
+    height: 230vh;
 
     margin: 20px;
 
@@ -291,10 +291,10 @@ main {
 }
 
 #carrosselDestaques {
-    /* background-color: yellow; */
+    background-color: yellow;
 
     width: 95%;
-    height: auto;
+    /* height: 30%; */
 
     display: flex;
     justify-content: center;
@@ -304,12 +304,11 @@ main {
     top: 20px;
 
     flex-wrap: wrap;
-
+    gap: 20px;
 }
 
 .produtoDestaques {
-    width: 15%;
-    margin: 10px;
+    width: 20%;
     /* height: 90%; */
     background-color: white;
     border-radius: 20px;
@@ -417,13 +416,6 @@ main {
 
 }
 
-#rodape a {
-    text-decoration: none;
-    color: white;
-
-    font-size: 30px;
-}
-
 /* ======================================================= */
 
 #carrosselBikesProntas {
@@ -469,7 +461,9 @@ main {
     font-size: 25px;
 }
 
-
+.frete {
+    padding-bottom: 10px;
+}
 
 .infoBikePronta {
     display: flex;
@@ -553,3 +547,9 @@ main {
     
 }
 
+#rodape a {
+    text-decoration: none;
+    color: white;
+
+    font-size: 30px;
+}
