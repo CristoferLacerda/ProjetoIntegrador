@@ -201,6 +201,11 @@ main {
     justify-content: center;
 }
 
+.comprar a {
+    text-decoration: none;
+    color: white;
+}
+
 #centralizar {
     display: flex;
     flex-direction: column;
