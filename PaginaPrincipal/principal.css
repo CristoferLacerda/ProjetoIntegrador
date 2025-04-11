@@ -604,9 +604,103 @@ main {
     width: 100vw;
     height: 100vh;
 
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
 
-    background-color: red;
+    background-color: #00000080;
+
+    display: none;
+    align-items: start;
+    justify-content: start;
+
+    z-index: 999;
+
+    position: fixed;
+
+}
+
+.infoBurger {
+    background-color: #719EF0;
+
+    width: 17%;
+    height: 100vh;
+
+    padding: 20px;
+}
+
+.infoBurger h1 {
+    font-size: 40px;
+    color: white;
+
+    padding: 10px;
+
+    padding-bottom: 10px;
+}
+
+.infoBurger ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    padding-left: 15px;
+}
+
+.infoBurger li {
+    font-size: 25px;
+    color: white;
+}
+
+.contaBurger {
+    display: flex;
+    flex-direction: column;
+}
+
+.linkLogin {
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+    padding-left: 15px;
+
+}
+
+.linkLogin a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+
+}
+
+.infoBurger {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    position: fixed;
+}
+
+.fechar {
+    position: absolute;
+    top: 5px;
+    right: -40px;
+
+    width: 30px;
+    height: 30px;
+
+    border-radius: 50%;
+
+    border: 0;
+
+    background-color: transparent;
+    color: white;
+
+    font-size: 30px;
+    
+    cursor: pointer;
+}
+
+.janelaDepartamento.abrir {
+    display: flex;
 }

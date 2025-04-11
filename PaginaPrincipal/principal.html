@@ -10,6 +10,7 @@
 <body>
 
     <header>
+        
 
         <div id="logoEburger">
 
@@ -18,7 +19,7 @@
             </div>
 
             <div class="btnMenu"> 
-                <button class="menu"> <img src="img/iconBurger.png" alt=""> </button> 
+                <button onclick="abrirBurger()" class="menu" > <img src="img/iconBurger.png" alt=""> </button> 
             </div>
 
         </div>
@@ -44,16 +45,6 @@
         
     </header>
 
-    <div class="janelaDepartamento">
-        <div class="dep">
-            <h1>Departamentos</h1>
-            <ul>
-                <li>Quadros</li>
-                <li>Prontas</li>
-                <li>Elétricas</li>
-            </ul>
-        </div>
-    </div>
 
     <section id="carrossel">
 
@@ -569,6 +560,38 @@
 
     </footer>
 
+    <div class="janelaDepartamento">
+        <div class="infoBurger">
+
+            <button class="fechar" id="fechar">X</button>
+
+            <div class="departamentosBurger">
+
+                <h1>Departamentos</h1>
+
+                <ul>
+                    <li>Acessórios</li>
+                    <li>Quadros</li>
+                    <li>Prontas</li>
+                    <li>Elétricas</li>
+                    <li>Speed</li>
+                </ul>
+
+            </div>
+
+            <div class="contaBurger">
+                <h1>Cadastro</h1>
+
+                <div class="linkLogin">
+                    <a href="../PaginaCadastro/cadastro.html">Cadastrar-se</a>
+                    <a href="../PaginaLogin/login.html">Login</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="principal.js"></script>
 </body>
 
 </html>
