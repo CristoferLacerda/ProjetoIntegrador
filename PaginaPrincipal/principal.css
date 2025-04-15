@@ -638,23 +638,13 @@ main {
     padding-bottom: 10px;
 }
 
-.infoBurger ul {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
 
-    padding-left: 15px;
-}
-
-.infoBurger li {
-    font-size: 25px;
-    color: white;
-}
 
 .contaBurger {
     display: flex;
     flex-direction: column;
+    align-items: start;
+    width: 100%;
 }
 
 .linkLogin {
@@ -662,7 +652,6 @@ main {
     flex-direction: column;
 
     gap: 15px;
-    padding-left: 15px;
 
 }
 
@@ -679,6 +668,8 @@ main {
     gap: 50px;
 
     position: fixed;
+
+    border: solid 1px #0B6BFD;
 }
 
 .fechar {
@@ -703,4 +694,67 @@ main {
 
 .janelaDepartamento.abrir {
     display: flex;
+}
+
+
+@keyframes abrirBurger {
+    from  {
+        opacity: 0;
+        transform: translate3d(-20px, 0, -5);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0,0,0);
+    }
+}
+
+.abrir .infoBurger {
+    animation: abrirBurger 2s;
+}
+
+
+.departamentosBurger h1 {
+    padding: 5px;
+}
+
+.departamentosBurger {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+}
+
+.departamentos {
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+
+    align-items: start;
+
+    
+}
+
+.departamentos a {
+    text-decoration: none;
+    color: white;
+
+    font-size: 25px;
+}
+
+.linkLogin{
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+
+    align-items: start;
+}
+
+.ajuda a {
+    text-decoration: none;
+    color: white;
+
+    font-size: 25px;
 }
