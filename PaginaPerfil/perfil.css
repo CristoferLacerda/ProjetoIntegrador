@@ -61,11 +61,25 @@ body {
 
 }
 
+.nomeAtualUsuario {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
 .nomeUsuario input {
     padding: 10px;
     border-radius: 50px;
     width: 80%;
     outline: none;
+}
+
+.mensagemAtualizacao {
+    text-align: center;
+    font-size: 0.9rem;
+    color: green;
+    margin-top: 5px;
+    transition: opacity 0.3s ease;
 }
 
 .configSite, .contato, .configConta {
